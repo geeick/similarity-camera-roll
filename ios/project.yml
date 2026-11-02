@@ -1,0 +1,20 @@
+name: SimilarityCameraRoll
+options:
+  bundleIdPrefix: dev.geeick
+targets:
+  SimilarityCameraRoll:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: SimilarityCameraRoll
+    settings:
+      base:
+        SWIFT_VERSION: "5.0"
+        PRODUCT_BUNDLE_IDENTIFIER: dev.geeick.similaritycameraroll
+        TARGETED_DEVICE_FAMILY: "1"
+    info:
+      path: SimilarityCameraRoll/Info.plist
+      properties:
+        NSPhotoLibraryUsageDescription: "Similarity Camera Roll reads your selected photos and videos to group them by visual similarity on this device."
+        UILaunchScreen: {}
