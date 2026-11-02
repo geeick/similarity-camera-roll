@@ -1,5 +1,13 @@
 # Similarity Camera Roll 📸
 
+## 📱 Native iPhone app (SwiftUI)
+
+The native on-device iPhone prototype is in **[ios/](ios/)**. It uses PhotoKit + Vision for similarity, with Similar Groups, Continuous Roll, and Find Similar. It currently scans in batches of 100 up to 600 items per session. See **[iPhone installation instructions](ios/README.md)** for setting up Xcode and running it on a physical iPhone.
+
+The Python prototype below remains available for desktop experiments.
+
+
+
 A local-first photo gallery that organizes images by **what they look like**, not by dates, filenames, or metadata.
 
 ## Features (v0.1)
